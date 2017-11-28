@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1">
+  <title>直播</title>
+  <style type="text/css">
+  	*{margin:0;padding: 0}
+  	.video {
+  		position: fixed;
+  		top: 0;
+  		height: 200px;
+  		right: 0;
+  		left: 0;
+  	}
+  	.video img {
+  		width: 100%;
+  		height: 100%;
+  	}
+  	.content {
+  		position: relative;
+  		top: 210px;
+  	}
+  	.tab-hd {
+  		line-height: 35px;
+  		height: 35px;
+  		font-size: 0;
+  		border: 1px solid #c66;
+  	}
+  	.tab-hd .tab-btn {
+  		display: inline-block;
+  		font-size: 18px;
+  		width: 50%;
+  		text-align: center;
+  		text-decoration: none;
+  		color: #c66;
+  		line-height: 35px;
+  	}
+  	.tab-hd .tab-btn.on {
+  		background: #c66;
+  		color: #fff;
+  	}
+  	.tab-bd {
+  		padding: 10px;
+  	}
+  	.tab-bd .tab-item {
+  		display: none;
+  	}
+  	.tab-bd .tab-item.on {
+  		display: block;
+  	}
+  	.form-input {
+  		position: fixed;
+  		left: 10px;
+  		right: 0;
+  		width: 90%;
+  		bottom: 0;
+  		height: 35px;
+  		line-height: 35px;
+  		border: 1px solid #50a8ea;
+  		border-radius: 5px;
+  		outline: none;
+  	}
+  </style>
+</head>
+<body>
+	<div class="video">
+		<img src="./img/500.png">
+	</div>
+	<div class="content">
+		<div class="tab-hd">
+			<a class="tab-btn on" href="javascript:;">我的课程</a>
+			<a class="tab-btn" href="javascript:;">已完成课程</a>
+		</div>
+		<div class="tab-bd">
+			<div class="tab-item on">
+				<p>11111</p>
+				<p>11111</p>
+				<p>11111</p>
+				<p>11111</p>
+				<p>七月不远</p>
+				<p>性别的诞生不远</p>
+				<p>爱情不远----马鼻子下</p>
+				<p>湖泊含盐</p>
+				<p>因此青海湖不远</p>
+			</div>
+			<div class="tab-item">
+				<p>22222</p>
+				<p>22222</p>
+				<p>22222</p>
+				<p>22222</p>
+				<p>22222</p>
+				<p>22222</p>
+			</div>
+		</div>		
+	</div>
+
+	<input class="form-input" type="text" name="" placeholder="请输入内容" />
+</body>
+</html>
